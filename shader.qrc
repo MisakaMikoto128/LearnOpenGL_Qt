@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shader/bdpmat.fs</file>
+        <file>shader/bdpmat.vs</file>
+        <file>shader/7.2.camera.fs</file>
+        <file>shader/7.2.camera.vs</file>
+    </qresource>
+</RCC>
