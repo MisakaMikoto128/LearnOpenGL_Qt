@@ -159,7 +159,7 @@ void GLWiget::paintGL()
 
     // view/projection transformations
     QMatrix4x4 projection;
-    projection.perspective(camera->Zoom, 1.0f * width() / height(), 0.1f, 100.0f);
+    projection.perspective(camera->Zoom, 1.0f * width() / height(), 0.1f, 100.0f);//Qt里面perspective第一个貌似是角度
     //view
     QMatrix4x4 view = camera->GetViewMatrix();
     ourShader.setUniformValue("projection", projection);
